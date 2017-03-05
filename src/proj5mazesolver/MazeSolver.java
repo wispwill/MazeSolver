@@ -54,9 +54,9 @@ public class MazeSolver
         {
             System.out.println("Error: maze width and height not properly "
                     + "entered. Inititalizing maze as 5x5.");
-            scan.next();//clears out the bad input
-            this.rows = 10;
-            this.cols = 10;
+            scan.nextLine();//clears out the bad input
+            this.rows = 5;
+            this.cols = 5;
         }
         
         this.maze = new char[rows][cols];
